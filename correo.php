@@ -19,7 +19,7 @@ else if($tipo == "c"){
     $costo = 100;
     $total = $cantidad * 100;
 }
-$cuerpo = "Hola  el tipo de boleto que adquirio fue tipo: "+$tipo+" con un costo de: "+$costo+". La cantidad de boletos: " +$cantidad+" con un total de: "+$total;
+$cuerpo = "Hola  el tipo de boleto que adquirio fue tipo: $tipo con un costo de: $costo. La cantidad de boletos: $cantidad con un total de: $total";
 $quienloenvia = "Richilin <richilin@gmail.com>";
 mail($correo,$asunto,$cuerpo,$quienloenvia);
 ?>
